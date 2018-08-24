@@ -7,7 +7,7 @@
   "main": "dist/vue-pop.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yucccc/vue-pay-keyboard"
+    "url": "https://github.com/lvyueyang/vue-pop.git"
   },
   "private": false,
   "scripts": {
