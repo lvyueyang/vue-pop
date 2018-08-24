@@ -4,9 +4,7 @@ import Prompt from './prompt'
 import Message from './message'
 import Notice from './notice'
 
-if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(vuePop);
-}
+
 const PopPlugin = {
   install(Vue, options) {
     const PopAlert = Vue.extend(Alert)
@@ -78,7 +76,7 @@ const PopPlugin = {
       // 输入框
       prompt(options) {
         const el = $prompt.$el;
-        $prompt.type = options.type || 'left'
+        $prompt.type = options.type || 'text'
         $prompt.algin = options.algin || 'left'
         $prompt.maxlength = options.maxlength || -1
         $prompt.title = options.title || ''
@@ -158,5 +156,7 @@ const PopPlugin = {
     }
   }
 }
-
+if (typeof window !== 'undefined' && window.Vue) {
+  window.Vue.use(PopPlugin);
+}
 export default PopPlugin
