@@ -5,7 +5,7 @@
 ## 直接引入
 ```html
 <script src="/path/to/vue.js"></script>
-<script src="/path/to/vue-pop.js"></script>
+<script src="/path/to/vue-popjs.js"></script>
 ```
 ## NPM
 ```sh
