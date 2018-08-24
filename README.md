@@ -9,16 +9,16 @@
 ```
 ## NPM
 ```sh
-npm install vue-pop --save
+npm install vue-popjs --save
 ```
 ## CNPM
 ```sh
-cnpm install vue-pop --save
+cnpm install vue-popjs --save
 ```
 如果在一个模块化工程中使用它，必须要通过 `Vue.use()`
 ```javascript
 import Vue from 'vue'
-import vuePop from 'vue-pop'
+import vuePop from 'vue-popjs'
 
 Vue.use(vuePop)
 ```

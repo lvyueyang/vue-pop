@@ -6,8 +6,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'vue-pop.js',
-    library: 'vue-pop',
+    filename: 'vue-popjs.js',
+    library: 'vue-popjs',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
