@@ -9,11 +9,11 @@
 ```
 ## NPM
 ```sh
-npm install vue-router --save
+npm install vue-pop --save
 ```
 ## CNPM
 ```sh
-cnpm install vue-router --save
+cnpm install vue-pop --save
 ```
 如果在一个模块化工程中使用它，必须要通过 `Vue.use()`
 ```javascript
