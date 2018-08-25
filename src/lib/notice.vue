@@ -5,7 +5,7 @@
         <i class="icon " :class="'icon-'+v.type"></i>
       </div>
       <div class="right">
-        <div class="v-pop-notice-header" v-html="v.title"></div>
+        <div class="v-pop-notice-header" v-html="v.title" :style="{'padding-top' : v.text ? 0 : '5px'}"></div>
         <div class="v-pop-notice-body" v-html="v.text"></div>
         <i class="icon icon-close" @click="close"></i>
       </div>
@@ -44,6 +44,7 @@
   .v-pop-notice {
     position: fixed;
     right: 0;
+    top: 25px;
     padding-right: 25px;
     .item {
       position: relative;
@@ -56,6 +57,7 @@
       background-color: #fff;
       border-radius: 2px;
       font-size: 14px;
+      padding-top: 5px;
       margin-bottom: 20px;
       overflow: hidden;
       .left {
